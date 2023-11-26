@@ -1,0 +1,107 @@
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+Xbar Weight Std Gamma 0.1
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+Xbar Weight Std Gamma 0.1
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/resnet20_qwa_nobias_1_12Aug.th
+Pretrained model training accuracy: 93.05
+-Starting retraining on mvm model, fp model weights will be quantized. Check args.rt
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Test before retraining:
+Test: [0/79]	Time 11.027 (11.027)	Loss 0.4422 (0.4422)	Prec@1 87.500 (87.500)
+Test: [60/79]	Time 9.409 (9.442)	Loss 0.5112 (0.5987)	Prec@1 85.938 (82.633)
+ * Prec@1 82.060
+Test Accuracy:82.06
+Retraining:
+current lr 1.00000e-03
+Epoch: [0][0/391]	Time 9.945 (9.945)	Data 0.141 (0.141)	Loss 0.3538 (0.3538)	Prec@1 88.281 (88.281)
+Epoch: [0][60/391]	Time 9.380 (9.432)	Data 0.000 (0.003)	Loss 0.3586 (0.3677)	Prec@1 86.719 (87.628)
+Epoch: [0][120/391]	Time 9.385 (9.422)	Data 0.000 (0.001)	Loss 0.3355 (0.3607)	Prec@1 85.938 (87.571)
+Epoch: [0][180/391]	Time 9.382 (9.420)	Data 0.000 (0.001)	Loss 0.3322 (0.3509)	Prec@1 87.500 (87.901)
+Epoch: [0][240/391]	Time 9.393 (9.421)	Data 0.001 (0.001)	Loss 0.3721 (0.3469)	Prec@1 88.281 (87.996)
+Epoch: [0][300/391]	Time 9.426 (9.419)	Data 0.000 (0.001)	Loss 0.4243 (0.3405)	Prec@1 82.812 (88.281)
+Epoch: [0][360/391]	Time 10.884 (9.424)	Data 0.000 (0.001)	Loss 0.2907 (0.3384)	Prec@1 88.281 (88.303)
+Test: [0/79]	Time 11.139 (11.139)	Loss 0.4611 (0.4611)	Prec@1 86.719 (86.719)
+Test: [60/79]	Time 10.918 (10.899)	Loss 0.4155 (0.4024)	Prec@1 89.844 (88.781)
+ * Prec@1 89.050
+Best Accuracy:89.05
+Saving the trained model as: retrain_Oct5_ideal_wnoise.th
+current lr 1.00000e-03
+Epoch: [1][0/391]	Time 11.122 (11.122)	Data 0.175 (0.175)	Loss 0.3828 (0.3828)	Prec@1 86.719 (86.719)
+Epoch: [1][60/391]	Time 10.938 (10.901)	Data 0.000 (0.003)	Loss 0.4534 (0.3287)	Prec@1 82.812 (88.268)
+Epoch: [1][120/391]	Time 9.424 (10.417)	Data 0.000 (0.002)	Loss 0.2369 (0.3180)	Prec@1 90.625 (88.720)
+Epoch: [1][180/391]	Time 9.384 (10.088)	Data 0.000 (0.001)	Loss 0.2573 (0.3152)	Prec@1 93.750 (88.838)
+Epoch: [1][240/391]	Time 9.418 (9.921)	Data 0.000 (0.001)	Loss 0.3588 (0.3144)	Prec@1 89.844 (88.972)
+Epoch: [1][300/391]	Time 9.538 (9.821)	Data 0.000 (0.001)	Loss 0.2517 (0.3147)	Prec@1 91.406 (88.987)
+Epoch: [1][360/391]	Time 9.392 (9.752)	Data 0.000 (0.001)	Loss 0.4245 (0.3137)	Prec@1 87.500 (89.028)
+Test: [0/79]	Time 9.492 (9.492)	Loss 0.2644 (0.2644)	Prec@1 91.406 (91.406)
+Test: [60/79]	Time 9.335 (9.392)	Loss 0.3171 (0.3755)	Prec@1 90.625 (89.011)
+ * Prec@1 88.960
+Best Accuracy:89.05
+Saving the trained model as: retrain_Oct5_ideal_wnoise.th
+current lr 1.00000e-05
+Epoch: [2][0/391]	Time 9.682 (9.682)	Data 0.222 (0.222)	Loss 0.2509 (0.2509)	Prec@1 90.625 (90.625)
+Epoch: [2][60/391]	Time 9.372 (9.434)	Data 0.000 (0.004)	Loss 0.3753 (0.3145)	Prec@1 89.844 (88.858)
+Epoch: [2][120/391]	Time 10.892 (9.473)	Data 0.000 (0.002)	Loss 0.3437 (0.3074)	Prec@1 85.938 (89.095)
+Epoch: [2][180/391]	Time 12.038 (9.971)	Data 0.000 (0.001)	Loss 0.2233 (0.3075)	Prec@1 90.625 (89.183)
+Epoch: [2][240/391]	Time 12.643 (10.626)	Data 0.000 (0.001)	Loss 0.2071 (0.3078)	Prec@1 92.969 (89.247)
+Epoch: [2][300/391]	Time 12.502 (11.005)	Data 0.000 (0.001)	Loss 0.3528 (0.3080)	Prec@1 88.281 (89.270)
+Epoch: [2][360/391]	Time 12.592 (11.240)	Data 0.000 (0.001)	Loss 0.3732 (0.3086)	Prec@1 85.938 (89.216)
+Test: [0/79]	Time 12.607 (12.607)	Loss 0.2853 (0.2853)	Prec@1 89.062 (89.062)
+Test: [60/79]	Time 12.289 (12.420)	Loss 0.3170 (0.3896)	Prec@1 91.406 (89.011)
+ * Prec@1 88.950
+Best Accuracy:89.05
+Saving the trained model as: retrain_Oct5_ideal_wnoise.th
+current lr 1.00000e-07
+Epoch: [3][0/391]	Time 12.395 (12.395)	Data 0.196 (0.196)	Loss 0.1313 (0.1313)	Prec@1 95.312 (95.312)
+Epoch: [3][60/391]	Time 12.274 (12.274)	Data 0.000 (0.003)	Loss 0.2381 (0.2991)	Prec@1 92.188 (89.549)
+Epoch: [3][120/391]	Time 11.906 (12.230)	Data 0.000 (0.002)	Loss 0.4001 (0.3023)	Prec@1 85.938 (89.495)
+Epoch: [3][180/391]	Time 11.646 (12.178)	Data 0.000 (0.001)	Loss 0.3244 (0.3071)	Prec@1 86.719 (89.283)
+Epoch: [3][240/391]	Time 11.661 (12.147)	Data 0.000 (0.001)	Loss 0.4550 (0.3106)	Prec@1 85.156 (89.169)
+Epoch: [3][300/391]	Time 11.669 (12.101)	Data 0.000 (0.001)	Loss 0.3018 (0.3123)	Prec@1 90.625 (89.086)
+Epoch: [3][360/391]	Time 12.206 (12.066)	Data 0.000 (0.001)	Loss 0.2534 (0.3101)	Prec@1 89.844 (89.099)
+Test: [0/79]	Time 12.253 (12.253)	Loss 0.2596 (0.2596)	Prec@1 89.844 (89.844)
+Test: [60/79]	Time 12.290 (11.870)	Loss 0.3365 (0.3775)	Prec@1 89.062 (89.255)
+ * Prec@1 89.290
+Best Accuracy:89.29
+Saving the trained model as: retrain_Oct5_ideal_wnoise.th
+current lr 1.00000e-07
+Epoch: [4][0/391]	Time 12.320 (12.320)	Data 0.171 (0.171)	Loss 0.1929 (0.1929)	Prec@1 92.969 (92.969)
+Epoch: [4][60/391]	Time 11.784 (11.844)	Data 0.000 (0.003)	Loss 0.2725 (0.3087)	Prec@1 90.625 (89.652)
+Epoch: [4][120/391]	Time 11.646 (11.800)	Data 0.000 (0.002)	Loss 0.2872 (0.3085)	Prec@1 90.625 (89.392)
+Epoch: [4][180/391]	Time 12.225 (11.790)	Data 0.000 (0.001)	Loss 0.2091 (0.3124)	Prec@1 93.750 (89.209)
+Epoch: [4][240/391]	Time 11.761 (11.760)	Data 0.000 (0.001)	Loss 0.3803 (0.3091)	Prec@1 86.719 (89.257)
+Epoch: [4][300/391]	Time 11.725 (11.745)	Data 0.000 (0.001)	Loss 0.1963 (0.3085)	Prec@1 94.531 (89.249)
+Epoch: [4][360/391]	Time 11.804 (11.728)	Data 0.000 (0.001)	Loss 0.2915 (0.3100)	Prec@1 88.281 (89.169)
+Test: [0/79]	Time 11.379 (11.379)	Loss 0.2353 (0.2353)	Prec@1 91.406 (91.406)
+Test: [60/79]	Time 11.334 (11.590)	Loss 0.3692 (0.4013)	Prec@1 85.938 (88.576)
+ * Prec@1 88.900
+Best Accuracy:89.29
+Saving the trained model as: retrain_Oct5_ideal_wnoise.th
+current lr 1.00000e-07
+Epoch: [5][0/391]	Time 11.925 (11.925)	Data 0.212 (0.212)	Loss 0.3184 (0.3184)	Prec@1 88.281 (88.281)
+Epoch: [5][60/391]	Time 11.487 (11.551)	Data 0.000 (0.004)	Loss 0.2842 (0.2979)	Prec@1 91.406 (89.844)
+Epoch: [5][120/391]	Time 11.835 (11.543)	Data 0.000 (0.002)	Loss 0.3345 (0.3007)	Prec@1 89.062 (89.618)
+Epoch: [5][180/391]	Time 11.924 (11.531)	Data 0.000 (0.001)	Loss 0.3681 (0.3072)	Prec@1 85.156 (89.408)
+Epoch: [5][240/391]	Time 11.441 (11.541)	Data 0.000 (0.001)	Loss 0.2854 (0.3084)	Prec@1 93.750 (89.270)
+Epoch: [5][300/391]	Time 11.315 (11.552)	Data 0.000 (0.001)	Loss 0.3337 (0.3073)	Prec@1 85.156 (89.270)
+Epoch: [5][360/391]	Time 11.328 (11.534)	Data 0.000 (0.001)	Loss 0.2814 (0.3098)	Prec@1 91.406 (89.188)
+Test: [0/79]	Time 11.602 (11.602)	Loss 0.2046 (0.2046)	Prec@1 92.188 (92.188)
+Test: [60/79]	Time 11.027 (11.393)	Loss 0.3006 (0.4092)	Prec@1 92.188 (88.397)
+ * Prec@1 88.530
+Best Accuracy:89.29
+Saving the trained model as: retrain_Oct5_ideal_wnoise.th

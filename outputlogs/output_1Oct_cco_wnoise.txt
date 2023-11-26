@@ -1,0 +1,85 @@
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8
+Train Model Details: resNet20 model with ADC charactersitics
+ADC Characteristics: CCO ADC Monte Carlo
+Parameters:
+            ADC Bits: 7
+            ADC Fractional Bits: 5
+            ADC Bit Scale: 1.0
+            ADC Corner/Index: 0
+            Weight Bits: 7
+            Weight Fractional Bits: 7
+            Max ADC Out: 3.96875
+            Max Weight: 0.9921875
+           -------------------------
+            Weight Noise Std. Dev. Gamma: 0.1
+           -------------------------
+            ADC VAT:  True
+           -------------------------
+            ADC VAT Full Random:  False
+           -------------------------
+            ADC VAT characteristic manual seed: 42
+           -------------------------
+Number of thresold levels: 127
+ADC Bits: 7
+Files already downloaded and verified
+current lr 1.00000e-01
+Epoch: [0][0/391]	Time 1.796 (1.796)	Data 0.262 (0.262)	Loss 3.6968 (3.6968)	Prec@1 8.594 (8.594)
+Epoch: [0][60/391]	Time 0.970 (1.000)	Data 0.001 (0.005)	Loss 1.9428 (2.2530)	Prec@1 27.344 (20.940)
+Epoch: [0][120/391]	Time 0.945 (0.982)	Data 0.000 (0.003)	Loss 1.7171 (2.0615)	Prec@1 32.031 (25.316)
+Epoch: [0][180/391]	Time 0.925 (0.967)	Data 0.000 (0.002)	Loss 1.6863 (1.9687)	Prec@1 40.625 (27.857)
+Epoch: [0][240/391]	Time 0.910 (0.955)	Data 0.000 (0.002)	Loss 1.7457 (1.9130)	Prec@1 25.000 (29.454)
+Epoch: [0][300/391]	Time 0.907 (0.945)	Data 0.000 (0.001)	Loss 1.6939 (1.8669)	Prec@1 32.812 (31.050)
+Epoch: [0][360/391]	Time 0.889 (0.936)	Data 0.000 (0.001)	Loss 1.5675 (1.8265)	Prec@1 42.188 (32.395)
+Test: [0/79]	Time 0.344 (0.344)	Loss 1.4891 (1.4891)	Prec@1 42.188 (42.188)
+Test: [60/79]	Time 0.167 (0.170)	Loss 1.2972 (1.5257)	Prec@1 53.906 (43.417)
+ * Prec@1 43.220
+Best Accuracy:43.22
+current lr 1.00000e-01
+Epoch: [1][0/391]	Time 1.128 (1.128)	Data 0.240 (0.240)	Loss 1.5164 (1.5164)	Prec@1 43.750 (43.750)
+Epoch: [1][60/391]	Time 0.879 (0.885)	Data 0.000 (0.004)	Loss 1.6310 (1.6033)	Prec@1 43.750 (40.126)
+Epoch: [1][120/391]	Time 0.869 (0.880)	Data 0.000 (0.002)	Loss 1.5521 (1.5952)	Prec@1 44.531 (40.515)
+Epoch: [1][180/391]	Time 0.868 (0.875)	Data 0.001 (0.002)	Loss 1.6599 (1.5607)	Prec@1 35.938 (41.959)
+Epoch: [1][240/391]	Time 0.855 (0.872)	Data 0.000 (0.001)	Loss 1.4735 (1.5433)	Prec@1 48.438 (42.855)
+Epoch: [1][300/391]	Time 0.854 (0.868)	Data 0.000 (0.001)	Loss 1.4713 (1.5256)	Prec@1 42.188 (43.701)
+Epoch: [1][360/391]	Time 0.854 (0.866)	Data 0.000 (0.001)	Loss 1.2054 (1.5111)	Prec@1 56.250 (44.248)
+Test: [0/79]	Time 0.329 (0.329)	Loss 2.2772 (2.2772)	Prec@1 38.281 (38.281)
+Test: [60/79]	Time 0.167 (0.170)	Loss 1.8826 (2.0337)	Prec@1 41.406 (41.944)
+ * Prec@1 41.790
+Best Accuracy:43.22
+current lr 1.00000e-01
+Epoch: [2][0/391]	Time 1.090 (1.090)	Data 0.230 (0.230)	Loss 1.3005 (1.3005)	Prec@1 51.562 (51.562)
+Epoch: [2][60/391]	Time 0.847 (0.852)	Data 0.000 (0.004)	Loss 1.2721 (1.3965)	Prec@1 53.125 (49.718)
+Epoch: [2][120/391]	Time 0.843 (0.849)	Data 0.000 (0.002)	Loss 1.2861 (1.3893)	Prec@1 55.469 (49.677)
+Epoch: [2][180/391]	Time 0.840 (0.846)	Data 0.000 (0.002)	Loss 1.4859 (1.3880)	Prec@1 44.531 (49.776)
+Epoch: [2][240/391]	Time 0.838 (0.845)	Data 0.000 (0.001)	Loss 1.3857 (1.3780)	Prec@1 44.531 (50.036)
+Epoch: [2][300/391]	Time 0.837 (0.844)	Data 0.000 (0.001)	Loss 1.1712 (1.3691)	Prec@1 54.688 (50.231)
+Epoch: [2][360/391]	Time 0.835 (0.842)	Data 0.000 (0.001)	Loss 1.0691 (1.3614)	Prec@1 60.156 (50.584)
+Test: [0/79]	Time 0.330 (0.330)	Loss 1.1442 (1.1442)	Prec@1 59.375 (59.375)
+Test: [60/79]	Time 0.167 (0.170)	Loss 1.1800 (1.2514)	Prec@1 59.375 (57.134)
+ * Prec@1 56.980
+Best Accuracy:56.98
+current lr 1.00000e-01
+Epoch: [3][0/391]	Time 1.046 (1.046)	Data 0.209 (0.209)	Loss 1.4004 (1.4004)	Prec@1 47.656 (47.656)
+Epoch: [3][60/391]	Time 0.832 (0.837)	Data 0.000 (0.004)	Loss 1.3738 (1.3035)	Prec@1 52.344 (53.010)
+Epoch: [3][120/391]	Time 0.829 (0.835)	Data 0.000 (0.002)	Loss 1.3482 (1.3099)	Prec@1 47.656 (52.454)
+Epoch: [3][180/391]	Time 0.832 (0.835)	Data 0.000 (0.002)	Loss 1.2362 (1.3021)	Prec@1 54.688 (52.866)
+Epoch: [3][240/391]	Time 0.827 (0.833)	Data 0.000 (0.001)	Loss 1.2208 (1.2964)	Prec@1 52.344 (53.255)
+Epoch: [3][300/391]	Time 0.826 (0.832)	Data 0.000 (0.001)	Loss 1.4579 (1.2910)	Prec@1 50.000 (53.416)
+Epoch: [3][360/391]	Time 0.829 (0.831)	Data 0.000 (0.001)	Loss 1.4402 (1.2875)	Prec@1 47.656 (53.476)
+Test: [0/79]	Time 0.355 (0.355)	Loss 1.1188 (1.1188)	Prec@1 63.281 (63.281)
+Test: [60/79]	Time 0.167 (0.170)	Loss 1.0734 (1.1717)	Prec@1 62.500 (59.657)
+ * Prec@1 59.420
+Best Accuracy:59.42
+current lr 1.00000e-01
+Epoch: [4][0/391]	Time 1.047 (1.047)	Data 0.213 (0.213)	Loss 1.2802 (1.2802)	Prec@1 57.031 (57.031)
+Traceback (most recent call last):
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/trainer_new.py", line 488, in <module>
+    main()
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/trainer_new.py", line 317, in main
+    train_result= train(train_loader, model, criterion, optimizer, epoch)
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/trainer_new.py", line 362, in train
+    add_weight_noise(model, args.weight_noise_std_gamma, args.wfbits)
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/trainer_new.py", line 151, in add_weight_noise
+    weights_var_unit = weights_int.to(dtype=torch.int).to('cpu').apply_(get_sigma)  # returns the squared sum of the binary elements squared
+RuntimeError: value cannot be converted to type int32 without overflow

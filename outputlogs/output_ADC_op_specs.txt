@@ -1,0 +1,141 @@
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8
+Train Model Details: resNet20 model with ADC charactersitics
+ADC Characteristics: Ideal ADC, uniform quantization
+Parameters:
+            ADC Bits: 7
+            ADC Fractional Bits: 5
+            ADC Bit Scale: 1.0
+            ADC Corner: 0
+            Weight Bits: 7
+            Weight Fractional Bits: 7
+            Max ADC Out: 3.96875
+            Max Weight: 0.9921875
+Number of thresold levels: 127
+ADC Bits: 7
+Loading model from: saved_models/resnet20_qwa_1_11Aug.th
+Pretrained model training accuracy: 92.95
+Pretrained model parameters loaded
+
+ADC of Layer 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.57710; STD: 0.67565; Max: 3.96875
+----------Layer 1----------
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.33507; STD: 0.46581; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.81851; STD: 0.90263; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.19463; STD: 0.38228; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 1.00984; STD: 0.86560; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.13148; STD: 0.32322; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 1.07303; STD: 0.80892; Max: 3.96875
+----------Layer 2----------
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.26078; STD: 0.41906; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.76752; STD: 0.85599; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.09856; STD: 0.24927; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.70385; STD: 0.81904; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.11477; STD: 0.28006; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.67884; STD: 0.80590; Max: 3.96875
+----------Layer 3----------
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.22111; STD: 0.40774; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.47896; STD: 0.75567; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.11079; STD: 0.28311; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.35758; STD: 0.67723; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.09801; STD: 0.27723; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.66916; STD: 1.08626; Max: 3.96875
+
+ADC of Layer 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.58484; STD: 0.68502; Max: 3.96875
+----------Layer 1----------
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.33373; STD: 0.46202; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.82132; STD: 0.90185; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.19173; STD: 0.37568; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 1.00690; STD: 0.85873; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 0.12998; STD: 0.31842; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 16, 32, 32])
+Mean: 1.06779; STD: 0.80082; Max: 3.96875
+----------Layer 2----------
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.26122; STD: 0.41752; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.76212; STD: 0.85068; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.09935; STD: 0.25261; Max: 3.43750
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.70228; STD: 0.81723; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.11481; STD: 0.28184; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 32, 16, 16])
+Mean: 0.68062; STD: 0.80660; Max: 3.96875
+----------Layer 3----------
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.21933; STD: 0.40605; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.48051; STD: 0.75744; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.11141; STD: 0.28317; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.36001; STD: 0.68130; Max: 3.96875
+ADC of Residual Conv 1:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.09957; STD: 0.28036; Max: 3.96875
+ADC of Residual Conv 2:
+Output shape: torch.Size([128, 64, 8, 8])
+Mean: 0.67549; STD: 1.08835; Max: 3.96875
+ * Prec@1 92.969

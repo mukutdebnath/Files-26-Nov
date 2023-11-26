@@ -1,0 +1,26 @@
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8
+Train Model Details: resNet20 model with ADC charactersitics
+ADC Characteristics: VCO MC Cal at 64
+Parameters:
+            ADC Bits: 7
+            ADC Fractional Bits: 5
+            ADC Bit Scale: 1.0
+            ADC Corner/Index: 0
+            Weight Bits: 7
+            Weight Fractional Bits: 7
+            Max ADC Out: 3.96875
+            Max Weight: 0.9921875
+           -------------------------
+            Weight Noise Std. Dev.: 0.0
+           -------------------------
+            ADC VAT:  True
+           -------------------------
+            ADC VAT Full Random:  False
+           -------------------------
+            ADC VAT characteristic manual seed: 42
+           -------------------------
+Number of thresold levels: 127
+ADC Bits: 7
+Files already downloaded and verified
+current lr 1.00000e-01

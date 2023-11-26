@@ -1,0 +1,251 @@
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/resnet20_qwa_nobias_1_12Aug.th
+Pretrained model training accuracy: 93.05
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Retraining:
+current lr 1.00000e-03
+Epoch: [0][0/391]	Time 42.532 (42.532)	Data 0.090 (0.090)	Loss 0.2550 (0.2550)	Prec@1 90.625 (90.625)
+Epoch: [0][60/391]	Time 38.512 (38.626)	Data 0.000 (0.002)	Loss 0.1612 (0.2519)	Prec@1 95.312 (91.265)
+Epoch: [0][120/391]	Time 38.503 (38.552)	Data 0.000 (0.001)	Loss 0.1780 (0.2404)	Prec@1 92.969 (91.581)
+Epoch: [0][180/391]	Time 38.419 (38.519)	Data 0.000 (0.001)	Loss 0.2879 (0.2400)	Prec@1 87.500 (91.497)
+Epoch: [0][240/391]	Time 38.465 (38.505)	Data 0.000 (0.001)	Loss 0.2547 (0.2353)	Prec@1 91.406 (91.552)
+Epoch: [0][300/391]	Time 38.467 (38.500)	Data 0.000 (0.001)	Loss 0.1789 (0.2345)	Prec@1 92.969 (91.562)
+Epoch: [0][360/391]	Time 38.505 (38.494)	Data 0.000 (0.000)	Loss 0.2056 (0.2319)	Prec@1 92.188 (91.679)
+Test: [0/79]	Time 38.608 (38.608)	Loss 0.1696 (0.1696)	Prec@1 94.531 (94.531)
+Test: [60/79]	Time 38.358 (38.390)	Loss 0.2490 (0.2667)	Prec@1 92.188 (92.200)
+ * Prec@1 92.180
+Best Accuracy:92.18
+current lr 1.00000e-03
+Epoch: [1][0/391]	Time 38.636 (38.636)	Data 0.171 (0.171)	Loss 0.1377 (0.1377)	Prec@1 96.094 (96.094)
+Epoch: [1][60/391]	Time 38.439 (38.436)	Data 0.000 (0.003)	Loss 0.2962 (0.2184)	Prec@1 87.500 (92.098)
+Epoch: [1][120/391]	Time 38.435 (38.435)	Data 0.000 (0.002)	Loss 0.1474 (0.2162)	Prec@1 96.094 (92.252)
+Epoch: [1][180/391]	Time 38.454 (38.436)	Data 0.000 (0.001)	Loss 0.1295 (0.2186)	Prec@1 96.094 (92.265)
+Epoch: [1][240/391]	Time 38.430 (38.437)	Data 0.000 (0.001)	Loss 0.1332 (0.2174)	Prec@1 95.312 (92.239)
+Epoch: [1][300/391]	Time 38.383 (38.436)	Data 0.000 (0.001)	Loss 0.3493 (0.2152)	Prec@1 89.062 (92.369)
+Epoch: [1][360/391]	Time 38.540 (38.444)	Data 0.000 (0.001)	Loss 0.1458 (0.2159)	Prec@1 92.969 (92.337)
+Test: [0/79]	Time 38.675 (38.675)	Loss 0.1241 (0.1241)	Prec@1 96.875 (96.875)
+Test: [60/79]	Time 38.544 (38.538)	Loss 0.2315 (0.2593)	Prec@1 94.531 (92.431)
+ * Prec@1 92.450
+Best Accuracy:92.45
+current lr 1.00000e-03
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/retrain_1_10Sept.th
+Pretrained model training accuracy: 92.45
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Test before retraining:
+Traceback (most recent call last):
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/retrainer_mvm.py", line 482, in <module>
+    main()
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/retrainer_mvm.py", line 300, in main
+    test_result = validate(val_loader, model, criterion)
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/retrainer_mvm.py", line 408, in validate
+    output = model(input_var)
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 157, in forward
+    raise RuntimeError("module must have its parameters and buffers "
+RuntimeError: module must have its parameters and buffers on device cuda:0 (device_ids[0]) but found one of them on device: cpu
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/retrain_1_10Sept.th
+Pretrained model training accuracy: 92.45
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Test before retraining:
+Test: [0/79]	Time 25.124 (25.124)	Loss 0.4796 (0.4796)	Prec@1 83.594 (83.594)
+Test: [60/79]	Time 18.842 (20.051)	Loss 0.3871 (0.4828)	Prec@1 85.156 (83.940)
+ * Prec@1 83.670
+Test Accuracy:83.67
+Retraining:
+current lr 1.00000e-03
+usage: retrainer_mvm.py [-h] [--gpu GPU] [--manual_seed MANUAL_SEED]
+                        [--pretrainedmodel PRETRAINEDMODEL]
+                        [--savemodel SAVEMODEL] [--archpt ARCHPT]
+                        [--arch ARCH] [-adcb ADC_BITS] [-adcfb ADC_F_BITS]
+                        [-adcbs ADC_BIT_SCALE] [-adcd ADCDATA]
+                        [-adci ADCINDEX] [--wbits WBITS] [--wfbits WFBITS]
+                        [-j N] [--epochs N] [--start-epoch N] [-b N] [--lr LR]
+                        [--momentum M] [--weight-decay W] [--print-freq N]
+                        [--resume PATH] [-e] [--pretrained] [--half]
+                        [--save-dir SAVE_DIR]
+                        [--save-model-dir SAVE_MODEL_DIR]
+                        [-rt RESUMERETRAINING]
+retrainer_mvm.py: error: argument --gpu: expected one argument
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/retrain_1_10Sept.th
+Pretrained model training accuracy: 92.45
+Retraining on mvm model
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Test before retraining:
+Test: [0/79]	Time 22.185 (22.185)	Loss 0.1241 (0.1241)	Prec@1 96.875 (96.875)
+Test: [60/79]	Time 19.380 (19.672)	Loss 0.2315 (0.2593)	Prec@1 94.531 (92.431)
+ * Prec@1 92.450
+Test Accuracy:92.45
+Retraining:
+current lr 1.00000e-03
+Epoch: [0][0/391]	Time 21.923 (21.923)	Data 0.100 (0.100)	Loss 0.2259 (0.2259)	Prec@1 90.625 (90.625)
+Epoch: [0][60/391]	Time 18.153 (19.569)	Data 0.000 (0.002)	Loss 0.2153 (0.2273)	Prec@1 91.406 (91.803)
+Epoch: [0][120/391]	Time 20.321 (19.501)	Data 0.000 (0.001)	Loss 0.1889 (0.2327)	Prec@1 93.750 (91.852)
+Epoch: [0][180/391]	Time 24.058 (19.529)	Data 0.000 (0.001)	Loss 0.2418 (0.2336)	Prec@1 92.969 (91.765)
+Epoch: [0][240/391]	Time 20.280 (19.641)	Data 0.000 (0.001)	Loss 0.2705 (0.2346)	Prec@1 89.844 (91.659)
+Epoch: [0][300/391]	Time 22.324 (19.682)	Data 0.000 (0.001)	Loss 0.2714 (0.2355)	Prec@1 89.062 (91.744)
+Epoch: [0][360/391]	Time 21.486 (19.685)	Data 0.000 (0.001)	Loss 0.2258 (0.2358)	Prec@1 91.406 (91.791)
+Test: [0/79]	Time 23.946 (23.946)	Loss 0.1390 (0.1390)	Prec@1 93.750 (93.750)
+Test: [60/79]	Time 24.874 (21.040)	Loss 0.2467 (0.2595)	Prec@1 94.531 (92.162)
+ * Prec@1 92.290
+Best Accuracy:92.29
+Saving the trained model as: retrain_1_10Sept.th
+current lr 1.00000e-03
+/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/cuda/__init__.py:107: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 101: invalid device ordinal (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/retrain_1_10Sept.th
+Traceback (most recent call last):
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/retrainer_mvm.py", line 490, in <module>
+    main()
+  File "/home/dynamo/a/debnathm/func_modelling/puma_functional_model/MyWorks/retrainer_mvm.py", line 179, in main
+    pretrained_model=torch.load(os.path.join(args.save_model_dir, args.pretrainedmodel))
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/serialization.py", line 809, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/serialization.py", line 1172, in _load
+    result = unpickler.load()
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/serialization.py", line 1142, in persistent_load
+    typed_storage = load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/serialization.py", line 1116, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/serialization.py", line 217, in default_restore_location
+    result = fn(storage, location)
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/serialization.py", line 182, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "/home/dynamo/a/debnathm/anaconda3/lib/python3.10/site-packages/torch/serialization.py", line 166, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  4
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ideal
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/retrain_1_10Sept.th
+Pretrained model training accuracy: 92.29
+-Resuming retraining on mvm model, weights will not be quantized. Check args.rt
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Retraining:
+current lr 1.00000e-03
+Epoch: [0][0/391]	Time 16.842 (16.842)	Data 0.200 (0.200)	Loss 0.2565 (0.2565)	Prec@1 89.844 (89.844)
+Epoch: [0][60/391]	Time 9.926 (10.888)	Data 0.000 (0.004)	Loss 0.1556 (0.2238)	Prec@1 94.531 (92.188)
+Epoch: [0][120/391]	Time 10.646 (10.743)	Data 0.000 (0.002)	Loss 0.1975 (0.2228)	Prec@1 91.406 (92.155)
+Epoch: [0][180/391]	Time 11.559 (10.772)	Data 0.000 (0.001)	Loss 0.2124 (0.2238)	Prec@1 92.969 (92.084)
+Epoch: [0][240/391]	Time 11.591 (10.763)	Data 0.000 (0.001)	Loss 0.2659 (0.2230)	Prec@1 93.750 (92.113)
+Epoch: [0][300/391]	Time 18.412 (11.794)	Data 0.000 (0.001)	Loss 0.2481 (0.2251)	Prec@1 92.969 (92.045)
+Epoch: [0][360/391]	Time 20.258 (13.036)	Data 0.000 (0.001)	Loss 0.1851 (0.2256)	Prec@1 94.531 (92.017)
+Test: [0/79]	Time 19.937 (19.937)	Loss 0.1569 (0.1569)	Prec@1 95.312 (95.312)
+Test: [60/79]	Time 18.568 (19.189)	Loss 0.2743 (0.2594)	Prec@1 92.969 (92.380)
+ * Prec@1 92.310
+Best Accuracy:92.31
+Saving the trained model as: retrain_1_10Sept.th
+current lr 1.00000e-03

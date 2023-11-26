@@ -1,0 +1,41 @@
+            ADC Corner Name: nom
+           -------------------------
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  2
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ss_lin
+Xbar Weight Std Gamma 0.0
+WARNING: crossbar sizes with different row annd column dimension not supported.
+            ADC Corner Name: nom
+           -------------------------
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  2
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ss_lin
+Xbar Weight Std Gamma 0.0
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/resnet20_qwa_sslin_2_14Aug.th
+Pretrained model training accuracy: 93.06
+-Starting retraining on mvm model, fp model weights will be quantized. Check args.rt
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Test before retraining:
+Test: [0/79]	Time 11.716 (11.716)	Loss 4.4008 (4.4008)	Prec@1 14.062 (14.062)
+Test: [60/79]	Time 10.241 (10.261)	Loss 4.2135 (4.3682)	Prec@1 17.188 (16.022)
+ * Prec@1 15.890
+Test Accuracy:15.89
+Retraining:
+current lr 5.00000e-03
+Epoch: [0][0/391]	Time 10.651 (10.651)	Data 0.167 (0.167)	Loss 1.1654 (1.1654)	Prec@1 59.375 (59.375)
+Epoch: [0][60/391]	Time 10.140 (10.172)	Data 0.000 (0.003)	Loss 2.3026 (3.5408)	Prec@1 12.500 (28.176)
+Epoch: [0][120/391]	Time 10.155 (10.166)	Data 0.000 (0.002)	Loss 2.3026 (2.9268)	Prec@1 12.500 (19.131)
+Epoch: [0][180/391]	Time 10.183 (10.166)	Data 0.000 (0.001)	Loss 2.3026 (2.7199)	Prec@1 15.625 (16.238)
+Epoch: [0][240/391]	Time 10.158 (10.165)	Data 0.000 (0.001)	Loss 2.3026 (2.6160)	Prec@1 5.469 (14.633)
+Epoch: [0][300/391]	Time 10.127 (10.165)	Data 0.000 (0.001)	Loss 2.3026 (2.5535)	Prec@1 11.719 (13.764)
+Epoch: [0][360/391]	Time 10.120 (10.164)	Data 0.000 (0.001)	Loss 2.3026 (2.5118)	Prec@1 10.938 (13.115)

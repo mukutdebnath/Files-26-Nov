@@ -1,0 +1,109 @@
+            ADC Corner Name: nom
+           -------------------------
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  1
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ss_lin
+WARNING: crossbar sizes with different row annd column dimension not supported.
+            ADC Corner Name: nom
+           -------------------------
+MVM Config:--------------
+Bit Stream:  1
+Bit Slice:  1
+ADC Bit:  7
+Xbar size:  128 128
+Real ADC Characteristics:  True ss_lin
+WARNING: crossbar sizes with different row annd column dimension not supported.
+Available models:
+resnet20_adc resnet110 resnet1202 resnet20 resnet32 resnet44 resnet56 resnet8 resnet20_mvm
+Loading pretrained model from  saved_models/resnet20_qwa_nobias_1_12Aug.th
+Pretrained model training accuracy: 93.05
+-Starting retraining on mvm model, fp model weights will be quantized. Check args.rt
+All pretrained parameters loaded successfully
+Files already downloaded and verified
+Test before retraining:
+Test: [0/79]	Time 33.740 (33.740)	Loss 3.3973 (3.3973)	Prec@1 8.594 (8.594)
+Test: [60/79]	Time 30.530 (30.579)	Loss 3.1664 (3.3903)	Prec@1 7.812 (9.157)
+ * Prec@1 9.110
+Test Accuracy:9.11
+Retraining:
+current lr 1.00000e-03
+Epoch: [0][0/391]	Time 31.244 (31.244)	Data 0.170 (0.170)	Loss 1.4014 (1.4014)	Prec@1 53.906 (53.906)
+Epoch: [0][60/391]	Time 30.660 (30.563)	Data 0.000 (0.003)	Loss 2.3026 (3.1733)	Prec@1 12.500 (10.489)
+Epoch: [0][120/391]	Time 30.494 (30.559)	Data 0.000 (0.002)	Loss 2.3026 (2.7415)	Prec@1 12.500 (10.214)
+Epoch: [0][180/391]	Time 30.560 (30.573)	Data 0.000 (0.001)	Loss 2.3026 (2.5960)	Prec@1 15.625 (10.277)
+Epoch: [0][240/391]	Time 30.948 (30.646)	Data 0.000 (0.001)	Loss 2.3026 (2.5230)	Prec@1 5.469 (10.156)
+Epoch: [0][300/391]	Time 30.989 (30.706)	Data 0.000 (0.001)	Loss 2.3026 (2.4790)	Prec@1 11.719 (10.180)
+Epoch: [0][360/391]	Time 30.997 (30.749)	Data 0.000 (0.001)	Loss 2.3026 (2.4497)	Prec@1 10.938 (10.126)
+Test: [0/79]	Time 31.013 (31.013)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.156)
+Test: [60/79]	Time 30.245 (30.681)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.015)
+ * Prec@1 10.000
+Best Accuracy:10.0
+Saving the trained model as: retrain_3Aug_ss.th
+current lr 1.00000e-03
+Epoch: [1][0/391]	Time 30.816 (30.816)	Data 0.213 (0.213)	Loss 2.3026 (2.3026)	Prec@1 11.719 (11.719)
+Epoch: [1][60/391]	Time 30.575 (30.617)	Data 0.000 (0.004)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.105)
+Epoch: [1][120/391]	Time 30.537 (30.591)	Data 0.000 (0.002)	Loss 2.3026 (2.3026)	Prec@1 10.938 (10.189)
+Epoch: [1][180/391]	Time 30.524 (30.585)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.156)
+Epoch: [1][240/391]	Time 30.650 (30.585)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.020)
+Epoch: [1][300/391]	Time 30.602 (30.588)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 10.156 (9.894)
+Epoch: [1][360/391]	Time 30.659 (30.591)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 10.938 (10.016)
+Test: [0/79]	Time 30.757 (30.757)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.156)
+Test: [60/79]	Time 30.491 (30.527)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.015)
+ * Prec@1 10.000
+Best Accuracy:10.0
+Saving the trained model as: retrain_3Aug_ss.th
+current lr 1.00000e-05
+Epoch: [2][0/391]	Time 30.790 (30.790)	Data 0.201 (0.201)	Loss 2.3026 (2.3026)	Prec@1 13.281 (13.281)
+Epoch: [2][60/391]	Time 30.586 (30.582)	Data 0.000 (0.004)	Loss 2.3026 (2.3026)	Prec@1 9.375 (10.118)
+Epoch: [2][120/391]	Time 30.596 (30.588)	Data 0.000 (0.002)	Loss 2.3026 (2.3026)	Prec@1 10.938 (9.872)
+Epoch: [2][180/391]	Time 30.577 (30.585)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 14.844 (9.919)
+Epoch: [2][240/391]	Time 30.453 (30.586)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 5.469 (9.965)
+Epoch: [2][300/391]	Time 30.637 (30.585)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 7.812 (9.915)
+Epoch: [2][360/391]	Time 30.550 (30.583)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 10.156 (9.998)
+Test: [0/79]	Time 30.763 (30.763)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.156)
+Test: [60/79]	Time 30.556 (30.524)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.015)
+ * Prec@1 10.000
+Best Accuracy:10.0
+Saving the trained model as: retrain_3Aug_ss.th
+current lr 1.00000e-07
+Epoch: [3][0/391]	Time 30.772 (30.772)	Data 0.153 (0.153)	Loss 2.3026 (2.3026)	Prec@1 7.812 (7.812)
+Epoch: [3][60/391]	Time 30.619 (30.587)	Data 0.000 (0.003)	Loss 2.3026 (2.3026)	Prec@1 11.719 (9.887)
+Epoch: [3][120/391]	Time 30.557 (30.580)	Data 0.000 (0.002)	Loss 2.3026 (2.3026)	Prec@1 10.938 (9.924)
+Epoch: [3][180/391]	Time 30.533 (30.584)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 10.938 (9.876)
+Epoch: [3][240/391]	Time 30.647 (30.580)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 11.719 (9.852)
+Epoch: [3][300/391]	Time 30.530 (30.583)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 7.812 (9.884)
+Epoch: [3][360/391]	Time 30.621 (30.573)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 7.031 (9.964)
+Test: [0/79]	Time 31.048 (31.048)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.156)
+Test: [60/79]	Time 30.901 (30.858)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.015)
+ * Prec@1 10.000
+Best Accuracy:10.0
+Saving the trained model as: retrain_3Aug_ss.th
+current lr 1.00000e-07
+Epoch: [4][0/391]	Time 31.050 (31.050)	Data 0.173 (0.173)	Loss 2.3026 (2.3026)	Prec@1 8.594 (8.594)
+Epoch: [4][60/391]	Time 30.951 (30.915)	Data 0.000 (0.003)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.131)
+Epoch: [4][120/391]	Time 30.913 (30.918)	Data 0.000 (0.002)	Loss 2.3026 (2.3026)	Prec@1 7.031 (10.027)
+Epoch: [4][180/391]	Time 30.504 (30.845)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 11.719 (10.009)
+Epoch: [4][240/391]	Time 30.554 (30.780)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 10.938 (10.036)
+Epoch: [4][300/391]	Time 30.578 (30.730)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 6.250 (10.013)
+Epoch: [4][360/391]	Time 30.572 (30.697)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 6.250 (9.942)
+Test: [0/79]	Time 30.749 (30.749)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.156)
+Test: [60/79]	Time 30.448 (30.495)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.015)
+ * Prec@1 10.000
+Best Accuracy:10.0
+Saving the trained model as: retrain_3Aug_ss.th
+current lr 1.00000e-07
+Epoch: [5][0/391]	Time 30.762 (30.762)	Data 0.199 (0.199)	Loss 2.3026 (2.3026)	Prec@1 9.375 (9.375)
+Epoch: [5][60/391]	Time 30.630 (30.569)	Data 0.000 (0.004)	Loss 2.3026 (2.3026)	Prec@1 6.250 (9.887)
+Epoch: [5][120/391]	Time 30.595 (30.574)	Data 0.000 (0.002)	Loss 2.3026 (2.3026)	Prec@1 5.469 (9.975)
+Epoch: [5][180/391]	Time 30.600 (30.573)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 14.844 (9.820)
+Epoch: [5][240/391]	Time 30.597 (30.571)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 7.812 (9.965)
+Epoch: [5][300/391]	Time 30.560 (30.568)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 11.719 (10.084)
+Epoch: [5][360/391]	Time 30.523 (30.561)	Data 0.000 (0.001)	Loss 2.3026 (2.3026)	Prec@1 11.719 (10.050)
+Test: [0/79]	Time 30.694 (30.694)	Loss 2.3026 (2.3026)	Prec@1 10.156 (10.156)
+Test: [60/79]	Time 13.739 (24.197)	Loss 2.3026 (2.3026)	Prec@1 14.062 (10.015)
+ * Prec@1 10.000
+Best Accuracy:10.0
+Saving the trained model as: retrain_3Aug_ss.th
